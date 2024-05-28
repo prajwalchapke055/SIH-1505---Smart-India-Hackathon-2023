@@ -63,11 +63,11 @@
 4] Data Security: Protect collected data from unauthorized access.
 
 ## Technology Stack : 
-1] Programming Languages and Libraries: Python, JavaScript, PHP, HTML, CSS, Bootstrap
-2] Data Analysis and Machine Learning: NumPy, TensorFlow, OpenCV, MathWorks
-3] Web Development: Node.js, Flask, Django
-4] Database: PostgreSQL
-5] Data Visualization: D3.js
+▪️ Programming Languages and Libraries: Python, JavaScript, PHP, HTML, CSS, Bootstrap
+▪️ Data Analysis and Machine Learning: NumPy, TensorFlow, OpenCV, MathWorks
+▪️ Web Development: Node.js, Flask, Django
+▪️ Database: PostgreSQL
+▪️ Data Visualization: D3.js
 
 ## Conclusion : 
 The EcoWarriors' approach to using aerial technology for the identification of hazardous atmospheres in industrial settings represents a forward-thinking and comprehensive strategy. By integrating advanced remote sensing, data analysis, and geospatial mapping, the project aims to significantly enhance fire prevention measures, improve safety, and reduce economic losses due to industrial fires. This innovative solution aligns with the theme “Where Nature Meets Pixels,” demonstrating the intersection of technology and environmental protection.
