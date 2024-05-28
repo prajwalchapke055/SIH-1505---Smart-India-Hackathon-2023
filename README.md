@@ -63,10 +63,15 @@
 4] Data Security: Protect collected data from unauthorized access.
 
 ## Technology Stack : 
-▪️ Programming Languages and Libraries: Python, JavaScript, PHP, HTML, CSS, Bootstrap
+
+▪️ Programming Languages and Libraries: Python, JavaScript, PHP, HTML, CSS, Bootstrap 
+
 ▪️ Data Analysis and Machine Learning: NumPy, TensorFlow, OpenCV, MathWorks
+
 ▪️ Web Development: Node.js, Flask, Django
+
 ▪️ Database: PostgreSQL
+
 ▪️ Data Visualization: D3.js
 
 ## Conclusion : 
