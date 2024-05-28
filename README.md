@@ -124,3 +124,14 @@ The EcoWarriors' approach to using aerial technology for the identification of h
 
 ### USER - Contact Us
 ![Screenshot (1162)](https://github.com/prajwalchapke055/SIH-1505---Smart-India-Hackathon-2023/assets/122814333/e077aa2d-89bd-447f-9cbf-1e3473d46ad8)
+
+## Smart India Hackathon - 2023 
+
+### SIH - Certification
+![IMG_4225](https://github.com/prajwalchapke055/SIH-1505---Smart-India-Hackathon-2023/assets/122814333/4a7efbbb-4983-4d91-9653-8790093f370c)
+
+### SIH - ID Card 
+![IMG_4226](https://github.com/prajwalchapke055/SIH-1505---Smart-India-Hackathon-2023/assets/122814333/6f004d7d-8d8b-4843-a46f-1ee9afda5083)
+
+### SIH - Trophy 
+![IMG_4227](https://github.com/prajwalchapke055/SIH-1505---Smart-India-Hackathon-2023/assets/122814333/0e1b89e7-6f24-4131-99b5-32f2b3d373e6)
