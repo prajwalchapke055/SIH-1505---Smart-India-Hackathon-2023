@@ -1,13 +1,13 @@
 # SIH-1505---Smart-India-Hackathon-2023
 
-## PS Code : SIH1505
-## Problem Statement Title : Aerial Location of Hazardous Atmosphere in Industries (Ministry of Home Affairs)
-## Category : Software
-## Team Name : EcoWarriors
-## Team Leader Name : Mr. Rahul Sanjay Tetwar
-## Team Mentor : Dr. Shubhashree Savant
-## Institute Name : Maharashtra Institute of Technology, Chh.Sambhajinagar, Maharashtra, India 
-## Theme Name : “Where Nature Meets Pixels”
+### PS Code : SIH1505
+### Problem Statement Title : Aerial Location of Hazardous Atmosphere in Industries (Ministry of Home Affairs)
+### Category : Software
+### Team Name : EcoWarriors
+### Team Leader Name : Mr. Rahul Sanjay Tetwar
+### Team Mentor : Dr. Shubhashree Savant
+### Institute Name : Maharashtra Institute of Technology, Chh.Sambhajinagar, Maharashtra, India 
+### Theme Name : “Where Nature Meets Pixels”
 
 ## Introduction : 
 - Developed user-friendly front-end interfaces to enhance the accessibility and visual appeal of the software.
