@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      html {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Lato", sans-serif;
+        overflow-x: hidden;
+        background-color: whitesmoke;
+      }
+
+      ul {
+        padding-inline-start: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--on-background);
+        transition: all 300ms ease-in;
+      }
+      .header {
+        height: 5rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(22, 19, 19);
+        color:white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+
+      .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-links ul {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav-links ul li {
+        font-size: 1.25em;
+        margin-inline-end: 2em;
+      }
+      @media only screen and (max-width: 768px) {
+        .navbar {
+          position: fixed;
+          inset: 0 0 0 50%;
+          background: hsl(0 0% 0% / 0.7);
+          backdrop-filter: blur(2rem);
+          flex-direction: column;
+          justify-content: unset;
+          transform: translateX(100%);
+          transition: transform 550ms ease-out;
+        }
+
+        .navbar[data-visible="true"] {
+          transform: translateX(0%);
+        }
+
+        .nav-links ul {
+          flex-direction: column;
+          padding: min(30vh, 10rem) 2rem;
+        }
+
+        .nav-links ul li {
+          margin: 1rem 0.1rem;
+        }
+
+        .nav-links ul li a {
+          color: var(--secondary-color);
+        }
+
+        .navbar .social-links {
+          flex-direction: column;
+        }
+
+        .navbar .social-links img {
+          margin: 0.3em 1.8em;
+          filter: grayscale(0);
+        }
+
+        .mobile-nav-toggle {
+          display: block;
+          position: absolute;
+          z-index: 9999;
+          width: 2rem;
+          aspect-ratio: 1;
+          top: 2rem;
+          right: 2rem;
+          border: 0;
+        }
+        .mobile-nav-toggle[aria-expanded="true"] {
+          background: url(../images/nav-icons/close.svg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <button
+          id="mobile-nav-toggle"
+          class="mobile-nav-toggle"
+          aria-controls="navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav id="navbar" class="navbar" data-visible="false">
+          <div class="nav-links">
+            <ul>
+              <li><a href="user_manage.php">Manage Users</a></li>
+              <li><a href="Contact-View.php">Contact Views</a></li>
+              <li><a href="gas_measurement.php">Historical Data</a></li>
+              <li><a href="one.php">Fire Prediction</a></li>
+              <li><a href="map.php">Hazardous Mapping</a></li>
+              <li><a href="Emergency_plan.php">Manage Emergency Response</a></li>
+              <li><a href="Training_Awareness_Copy.php">Training and Awareness</a></li>
+              <li><a href="notification.php">Notification</a></li>
+              <li class="join-btn"><a href="logout.php">Logout</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const toggleBtn = document.getElementById("mobile-nav-toggle");
+
+      openNavBar = () => {
+        const visibility = navbar.getAttribute("data-visible");
+        if (visibility === "false") {
+          navbar.setAttribute("data-visible", true);
+          toggleBtn.setAttribute("aria-expanded", true);
+        } else if (visibility === "true") {
+          navbar.setAttribute("data-visible", false);
+          toggleBtn.setAttribute("aria-expanded", false);
+        }
+      };
+
+      toggleBtn.addEventListener("click", openNavBar);
+    </script>
+  </body>
+</html>

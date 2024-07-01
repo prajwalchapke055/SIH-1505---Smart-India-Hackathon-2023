@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-image: url("image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: rgb(175, 174, 174);
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: black;
+    }
+
+    nav ul li:hover > ul {
+      display: inherit;
+    }
+
+    nav ul ul li {
+      width: 200px;
+      float: none;
+      display: list-item;
+      position: relative;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -60px;
+      left: 200px;
+    }
+   iframe{
+     margin-top: 1%;
+
+    }
+    #d4{
+      height: 600px;
+      width: 100%;
+      
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Historical Data</a>
+      <ul>
+        <li><a href="use.html" target="t1">Data Visualization</a></li>
+        <li><a href="#" target="t1">Data Filters</a></li>
+        <li><a href="#" target="t1">Incident History</a></li>
+      </ul>
+      </li>
+      
+      <li>
+        <a href="#">Collaborate</a>
+        <ul>
+        <li><a href="#"target="t1">Communication Hub</a></li>
+        <li><a href="#"target="t1">File Sharing </a></li>
+        <li><a href="#"target="t1">Task Management</a></li>
+        <li><a href="#"target="t1">Group Collaboration</a></li>
+      </ul>
+      </li>
+
+      <li>
+        <a href="Use.html">Emergency Plan</a>
+      <ul>
+        <li><a href="User1.html" target="t1"> Plan Editor</a></li>
+        <li><a href="User1.html"target="t1">Collabrative Planning </a></li>
+        <li><a href="User1.html" target="t1">Training Resorces</a></li>
+        <li><a href="User1.html"target="t1">Plan Approval Workflow</a></li>
+      </ul>
+
+
+      <li>
+        <a href="user.html"target="t1">Notification</a>
+      </li>
+
+      <li>
+        <a href="#"target="t1">Training Resource</a>
+      </li>
+      <li>
+        <a href="#"target="t1">Vision</a>
+      </li>
+
+    
+  </nav>
+    <div id ="d4">
+
+      <iframe id="t1" name="t1" height="100%" width="100%"></iframe>
+
+      
+       </div>
+</body>
+</html>

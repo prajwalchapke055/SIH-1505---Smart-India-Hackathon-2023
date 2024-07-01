@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+    }
+
+    nav ul li:hover > ul {
+      display: inherit;
+    }
+
+    nav ul ul li {
+      width: 200px;
+      float: none;
+      display: list-item;
+      position: relative;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -60px;
+      left: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Historical Data</a>
+      <ul>
+        <li><a href="#">Historical Data Visualization</a></li>
+        <li><a href="#">Data Filters</a></li>
+        <li><a href="#">Incident History</a></li>
+      </ul>
+      </li>
+      
+      <li>
+        <a href="#">Collaborate</a>
+        <ul>
+        <li><a href="#">Communication Hub</a></li>
+        <li><a href="#">File Sharing </a></li>
+        <li><a href="#">Task Management</a></li>
+        <li><a href="#">Group Collaboration</a></li>
+      </ul>
+      </li>
+
+      <li>
+        <a href="#">Update Emergency Plan</a>
+      <ul>
+        <li><a href="#">Emergency Plan Editor</a></li>
+        <li><a href="#">Collabrative Planning </a></li>
+        <li><a href="#">Training Resorces</a></li>
+        <li><a href="#">Plan Approval Workflow</a></li>
+        <li><a href="#">Vision</a></li>
+      </ul>
+
+
+      <li>
+        <a href="#">Notification</a>
+      </li>
+
+      <li>
+        <a href="#">Training Resource</a>
+      </li>
+
+
+    
+  </nav>
+
+</body>
+</html>
